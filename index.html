@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <title>JS Super Calculator</title>
+  </head>
+  <body>
+    <div id="calculator">
+      <form>
+        <input type="text" id="display">
+        <br>
+        <input type="button" class="keys" value="C" onclick="screenDisplay('c')">
+        <input type="button" class="keys" value="%" onclick="screenDisplay('%')">
+        <input type="button" class="keys" value="x^3" onclick="power(3)">
+        <input type="button" class="keys" value="+" onclick="screenDisplay('+')">
+        <br>
+        <input type="button" class="keys" value="9" onclick="screenDisplay('9')">
+        <input type="button" class="keys" value="8" onclick="screenDisplay('8')">
+        <input type="button" class="keys" value="7" onclick="screenDisplay('7')">
+        <input type="button" class="keys" value="-" onclick="screenDisplay('-')">
+        <br>
+        <input type="button" class="keys" value="6" onclick="screenDisplay('6')">
+        <input type="button" class="keys" value="5" onclick="screenDisplay('5')">
+        <input type="button" class="keys" value="4" onclick="screenDisplay('4')">
+        <input type="button" class="keys" value="*" onclick="screenDisplay('*')">
+        <br>
+        <input type="button" class="keys" value="3" onclick="screenDisplay('3')">
+        <input type="button" class="keys" value="2" onclick="screenDisplay('2')">
+        <input type="button" class="keys" value="1" onclick="screenDisplay('1')">
+        <input type="button" class="keys" value="/" onclick="screenDisplay('/')">
+        <br>
+        <input type="button" class="keys" value="0" onclick="screenDisplay('0')">
+        <input type="button" class="keys" value="." onclick="screenDisplay('.')">
+        <input type="button" class="keys" value="<--" onclick="backspace()">
+        <input type="button" class="keys" value="=" onclick="answer()">
+
+      </form>
+
+    </div>
+
+  <script type="text/javascript" src='script.js'></script>
+  </body>
+</html>
